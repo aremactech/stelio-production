@@ -51,13 +51,13 @@ export default function Home() {
           backgroundSize: 'cover'
         }}
       >
-        <h1 className="text-6xl lg:text-8xl tracking-tight max-w-5xl font-medium mb-14 mt-72 lg:mt-52  mx-6">
+        <h1 className="text-6xl lg:text-8xl tracking-tight max-w-5xl font-medium mb-14 mt-72 lg:mt-52 mx-10">
         <span>Energy for </span><span className={styles['countdown-text']}>{countdownText}</span>
         </h1>
         <div className="flex">
         <a
           href="/getstarted"
-          className="inline-block bg-green-700 border border-green-800 hover:bg-green-800 text-white px-6 py-2 mt-0 sm:mb-20 rounded-md ml-6"
+          className="inline-block bg-green-700 border border-green-800 hover:bg-green-800 text-white px-6 py-2 mt-0 sm:mb-20 rounded-full ml-10"
         >
           Get started
         </a>
@@ -70,7 +70,7 @@ export default function Home() {
             <span className="no-underline" style={{ textDecoration: 'none' }}>&#8595;</span>
         </a>
         </div>
-        <div className="flex  pt-60 lg:pt-0 object-bottom">
+        <div className="flex pt-80 lg:pt-0 object-bottom">
         <picture>
           <Image
             src="/steliographic.svg"
@@ -96,7 +96,7 @@ export default function Home() {
         <p className="text-2xl lg:text-3xl tracking-tight max-w-3xl text-neutral-800 font-medium mb-5 mx-6">
         <span>Find popular energy incentives near you simply with your address. </span>
         </p>
-        <div className='flex'>
+        <div className="sm:flex flex-col pr-20">
         <picture>
           <Image
             src="/s1.png"
@@ -106,23 +106,22 @@ export default function Home() {
           />
         </picture>
         
-        <p className="text-xl lg:text-3xl tracking-tight max-w-sm text-neutral-800 font-medium mt-32 mx-6">
+        <p className="text-2xl lg:text-4xl tracking-tight max-w-sm text-neutral-800 font-medium pt-5 mx-6">
         <span>After a quick location check, a dynamic list of local and popular <span className="font-semibold text-green-900">incentivized base configurations</span> will be provided to start your journey.</span>
         </p>
         </div>
         
 
         <div ref={otherRef} id="otherRef">
+        <div className='lg:flex sm:flex-col justify-end items-end'>
         <h1 className="text-3xl lg:text-5xl tracking-tight text-teal-800 font-medium mb-2 mt-20 mx-6 text-end">
         <span>Maximize Value of Energy</span>
         </h1>
         <p className="text-2xl lg:text-3xl tracking-tight lg:ml-60 text-neutral-800 font-medium mb-5 mx-6 text-end">
-        <span>Stelio will give you an estimate on your energy bill, setup cost, and yearly energy bill. </span>
+        <span>Stelio will give you an estimate on your energy bill, setup <br></br> cost, and yearly energy bill. </span>
         </p>
-        <div className='flex justify-end'>
-        <p className="text-xl lg:text-3xl tracking-tight max-w-sm text-neutral-800 font-medium mt-32 mx-6 text-end">
-        <span>Help <span className="font-semibold text-teal-900">visualize future costs</span> and changes in your bills, keeping you in the know about your expenses and what you can save.</span>
-        </p>
+       
+        
         <picture>
           <Image
             src="/g1f.png"
@@ -131,6 +130,10 @@ export default function Home() {
             height={500}
           />
         </picture>
+        <p className="text-2xl lg:text-3xl tracking-tight max-w-sm text-neutral-800 font-medium mt-5 mx-6 text-end">
+        <span>Help <span className="font-semibold text-teal-900">visualize future costs</span> and changes in your bills, keeping you in the know about your expenses and what you can save.</span>
+        </p>
+        
         
         
         </div>
@@ -142,7 +145,7 @@ export default function Home() {
         <p className="text-2xl lg:text-3xl tracking-tight max-w-3xl font-medium mb-5 mx-6">
         <span>Find incentives for your home today to retrofit, or prepare for the future.</span>
         </p>
-        <div className='flex'>
+        <div className="lg:flex sm:flex-col pr-20">
         <picture>
           <Image
             src="/g0f.png"
@@ -151,7 +154,7 @@ export default function Home() {
             height={500}
           />
         </picture>
-        <p className="text-xl lg:text-3xl tracking-tight max-w-sm text-neutral-800 font-medium mt-32 mx-6">
+        <p className="text-2xl lg:text-3xl tracking-tight max-w-sm text-neutral-800 font-medium mt-5 mx-6">
         <span>Discover the saving and benefits of retrofitting and upgrading to <span className="font-semibold text-fuchsia-900">increase the efficiency</span> of electricity in your household.</span>
         </p>
         </div>
@@ -160,14 +163,14 @@ export default function Home() {
 
         <div className="lg:py-10">
                 <div className="mx-6 mt-20 mb-40 flex flex-col text-center items-center justify-center">
-                    <div className="text-6xl lg:text-8xl font-semibold mt-2 mb-4">
-                        Join the future <br/> of energy
+                    <div className="text-6xl font-normal mt-2 mb-4">
+                        Join the future of energy
                     </div>
                     
                     <div className="flex flex-col"> {/* Set the width of the container */}
                         <a
                             href="/getstarted"
-                            className="inline-block border text-white border-green-800 bg-green-700 px-4 py-2 mt-4 rounded-md"
+                            className="inline-block border text-white border-green-800 bg-green-700 px-5 py-2 mt-4 rounded-full"
                         >
                             Get started
                         </a>

@@ -3,12 +3,12 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="mx-auto max-w-[1920px] px-6 bg-zinc-900 bg-opacity-0">
-      <div className="grid grid-cols-1 gap-8 lg:gap-0 py-12 pb-20 transition-colors duration-150 border-b lg:grid-cols-[repeat(16,_minmax(0,_1fr))] border-zinc-600 bg-zinc-900 bg-opacity-0 ">
+    <footer className="mx-auto max-w-[1920px] px-10 bg-zinc-900 bg-opacity-0">
+      <div className="grid grid-cols-1 gap-8 lg:gap-0 py-12 pb-20 transition-colors duration-150 lg:grid-cols-[repeat(16,_minmax(0,_1fr))] border-zinc-600 bg-zinc-900 bg-opacity-0 ">
         <div className="col-span-2 lg:col-span-6">
           <Link
             href="/"
-            className="flex items-center flex-initial font-bold md:mr-25"
+            className="flex items-center flex-initial font-normal md:mr-25"
           >
              <span className="mr-900 bg-opacity-0">
               <picture>
@@ -16,8 +16,8 @@ export default function Footer() {
               <Image
                   src="/steliologov1s.svg"
                   alt="Stelio Logo"
-                  width={100}
-                  height={100}
+                  width={75}
+                  height={75}
               />
               </picture>
             </span>
@@ -27,14 +27,14 @@ export default function Footer() {
         <div className="col-span-1 lg:col-span-3">
           <ul className="flex flex-col flex-initial md:flex-1">
           <li className="sm:py-0 md:py-0 md:pb-2">
-              <p className="font-medium">
+              <p className="text-zinc-600 font-normal">
                 Product
               </p>
             </li>
             <li className="sm:py-0 md:py-0 md:pb-2">
               <Link
                 href="/product"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out  "
               >
                 Get Started
               </Link>
@@ -42,7 +42,7 @@ export default function Footer() {
             <li className="sm:py-0 md:py-0 md:pb-2">
               <Link
                 href="/oss"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out  "
               >
                 Open Source
               </Link>
@@ -50,7 +50,7 @@ export default function Footer() {
             <li className="sm:py-0 md:py-0 md:pb-2">
               <Link
                 href="/product/enterprise"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out  "
               >
                 Enterprise
               </Link>
@@ -61,14 +61,14 @@ export default function Footer() {
         <div className="col-span-1 lg:col-span-3">
           <ul className="flex flex-col flex-initial md:flex-1">
           <li className="sm:py-0 md:py-0 md:pb-2">
-              <p className="font-medium">
+              <p className="text-zinc-600 font-normal">
                 Documentation
               </p>
             </li>
             <li className="sm:py-0 md:py-0 md:pb-2">
               <Link
                 href="/Copyright.pdf"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out  "
               >
                 Copyright
               </Link>
@@ -76,7 +76,7 @@ export default function Footer() {
             <li className="sm:py-0 md:py-0 md:pb-2">
               <Link
                 href="/CTE.pdf"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out  "
               >
                 CTE
               </Link>
@@ -84,7 +84,7 @@ export default function Footer() {
             <li className="sm:py-0 md:py-0 md:pb-2">
               <Link
                 href="/citations.pdf"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out  "
               >
                 Citations 
               </Link>
@@ -92,7 +92,7 @@ export default function Footer() {
             <li className="sm:py-0 md:py-0 md:pb-2">
               <Link
                 href="/2024 POW Webmaster.pdf"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out  "
               >
                 Plan of Work Log
               </Link>
@@ -101,7 +101,7 @@ export default function Footer() {
             <li className="sm:py-0 md:py-0 md:pb-2">
               <a
                 href="https://tsaweb.org"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out  "
               >
                 <span className="flex items-center">
                   <span>NTSA</span>
@@ -117,14 +117,14 @@ export default function Footer() {
         <div className="col-span-1 lg:col-span-3">
           <ul className="flex flex-col flex-initial md:flex-1">
           <li className="sm:py-0 md:py-0 md:pb-2">
-              <p className="font-medium">
+              <p className="text-zinc-600 font-normal">
                 Company
               </p>
             </li>
             <li className="sm:py-0 md:py-0 md:pb-2">
               <Link
                 href="/about"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out  "
               >
                 About
               </Link>
@@ -132,7 +132,7 @@ export default function Footer() {
             <li className="sm:py-0 md:py-0 md:pb-2">
               <Link
                 href="/careers"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out  "
               >
                 Careers
               </Link>
@@ -140,7 +140,7 @@ export default function Footer() {
             <li className="sm:py-0 md:py-0 md:pb-2">
               <Link
                 href="https://x.com/fltsa"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out "
               >
                 X
               </Link>
@@ -148,7 +148,7 @@ export default function Footer() {
             <li className="sm:py-0 md:py-0 md:pb-2">
               <Link
                 href="https://linkedin.com/in/stelioai"
-                className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+                className=" text-black transition duration-150 ease-in-out  "
               >
                 LinkedIn
               </Link>
@@ -162,7 +162,7 @@ export default function Footer() {
     <div className="grid lg:grid-cols-5 sm:grid-cols-1 gap-4">
     <div>
           <span>
-            <p className="text-gray-500">
+            <p className=" text-black">
             Copyright &copy; {new Date().getFullYear()} Stelio
             </p>
           </span>
@@ -172,7 +172,7 @@ export default function Footer() {
           <li className="mr-4">
             <Link
               href="/policies/privacy-policy"
-              className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+              className=" text-black transition duration-150 ease-in-out   "
             >
               Privacy policy
             </Link>
@@ -180,7 +180,7 @@ export default function Footer() {
           <li className="mr-4">
             <Link
               href="mailto:contact@stelio.ai"
-              className="text-gray-500 transition duration-150 ease-in-out hover:text-gray-500 hover:underline"
+              className=" text-black transition duration-150 ease-in-out   "
             >
               Contact  
             </Link>

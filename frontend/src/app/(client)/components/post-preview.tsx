@@ -30,7 +30,6 @@ export function PostPreview({
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"
-          className="hover:underline"
         >
           {title}
         </Link>

@@ -45,19 +45,18 @@ export default async function Page() {
             {morePosts.length > 0 && <MoreStories posts={morePosts} />}
             </Container>
             </div>
-            <hr className="border-black"/>
             <div className="lg:py-10">
                 <div className="mx-6 flex flex-col items-center justify-center">
-                    <div className="text-4xl lg:text-5xl font-semibold mt-2 mb-4">
+                    <div className="text-4xl lg:text-5xl font-normal mt-2 mb-10">
                         Join us in making energy easier.
                     </div>
                     
-                    <div> {/* Set the width of the container */}
+                    <div> 
                         <a
                             href="/careers/open-roles"
-                            className="inline-block border border-black text-black px-4 py-2 mt-4 rounded-lg"
-                        >
-                            Apply now
+                            className="inline-block text-white bg-black text-sm px-6 font-light py-2.5 mx-2 rounded-full"
+                            >
+                            View careers 
                         </a>
                     </div>
                 </div>

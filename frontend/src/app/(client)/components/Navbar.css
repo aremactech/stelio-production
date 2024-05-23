@@ -7,9 +7,18 @@
     background-color: transparent;
     z-index: 1000;
   }
+
+  .mobile-blur {
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+  }
   
   .navbar.scrolled {
-    background-color: white;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    /* mask: linear-gradient(black, black, transparent);
+    backdrop-filter: blur(8px); */
   }
 
+  
   

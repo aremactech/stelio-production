@@ -59,18 +59,17 @@ const  Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar fixed w-full py-5 px-10 ${isScrolled ? 'scrolled' : ''}`}>
+    <nav className={`navbar fixed w-full py-5  md:py-2 px-10 ${isScrolled ? 'scrolled' : ''}`}>
       <div className={`flex items-center justify-between ${isScrolled ? 'text-black' : ''}`}>
         <div>
           <Link href="/">
             <div>
               <picture>
-                {/* <source srcSet="/steliologov1sd.svg" media="(prefers-color-scheme: dark)" /> */}
                 <Image
                     src="/steliologov1s.svg"
                     alt="Stelio Logo"
-                    width={100}
-                    height={100}
+                    width={75}
+                    height={75}
                 />
               </picture>
             </div>
@@ -89,7 +88,7 @@ const  Navbar = () => {
         </div>
         <div className={
           isOpen 
-          ? "fixed left-0 top-0  bg-neutral-900 h-screen w-screen overscroll-none" 
+          ? "fixed left-0 top-0 mobile-blur h-screen w-screen overscroll-none" 
           : "hidden"
           }
           >
@@ -98,7 +97,7 @@ const  Navbar = () => {
               <CloseMenu />
             </div>
             </div>
-            <div className="flex-col text-4xl font-semibold text-white py-10 px-3">
+            <div className="flex-col text-3xl font-normal text-black py-10 px-3">
             <Suspense fallback={null}>
             {Object.entries(navItems).map(([path, { name }]) => {
   return <MobileNavItem key={path} path={path} name={name} closeMobileNav={closeMobileNav} />;
@@ -182,8 +181,8 @@ function MobileNavItem({ path, name, closeMobileNav }: { path: string; name: str
 function OpenMenu() {
   return (
     <svg 
-      width="40" 
-      height="40" 
+      width="30" 
+      height="30" 
       viewBox="0 0 40 40" 
       fill="none" 
       xmlns="http://www.w3.org/2000/svg"
@@ -201,10 +200,10 @@ function OpenMenu() {
 function CloseMenu() {
   return (
     <svg 
-      width="40" 
-      height="40" 
+      width="30" 
+      height="30" 
       viewBox="0 0 40 40" 
-      fill="white" 
+      fill="black" 
       xmlns="http://www.w3.org/2000/svg"
     >
       <path 
