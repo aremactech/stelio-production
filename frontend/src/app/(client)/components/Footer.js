@@ -116,7 +116,7 @@ export default function Footer() {
         </div>
         <div className="col-span-1 lg:col-span-3">
           <ul className="flex flex-col flex-initial md:flex-1">
-          <li className="sm:py-0 md:py-3 md:pb-2">
+          <li className="sm:py-0 md:py-0 md:pb-2">
               <p className="text-zinc-600 font-normal">
                 Company
               </p>
