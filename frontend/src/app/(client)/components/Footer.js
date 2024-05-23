@@ -31,7 +31,7 @@ export default function Footer() {
                 Product
               </p>
             </li>
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <Link
                 href="/product"
                 className=" text-black transition duration-150 ease-in-out  "
@@ -39,7 +39,7 @@ export default function Footer() {
                 Get Started
               </Link>
             </li>
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <Link
                 href="/oss"
                 className=" text-black transition duration-150 ease-in-out  "
@@ -47,7 +47,7 @@ export default function Footer() {
                 Open Source
               </Link>
             </li>
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <Link
                 href="/product/enterprise"
                 className=" text-black transition duration-150 ease-in-out  "
@@ -65,7 +65,7 @@ export default function Footer() {
                 Documentation
               </p>
             </li>
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <Link
                 href="/Copyright.pdf"
                 className=" text-black transition duration-150 ease-in-out  "
@@ -73,7 +73,7 @@ export default function Footer() {
                 Copyright
               </Link>
             </li>
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <Link
                 href="/CTE.pdf"
                 className=" text-black transition duration-150 ease-in-out  "
@@ -81,7 +81,7 @@ export default function Footer() {
                 CTE
               </Link>
             </li>
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <Link
                 href="/citations.pdf"
                 className=" text-black transition duration-150 ease-in-out  "
@@ -89,7 +89,7 @@ export default function Footer() {
                 Citations 
               </Link>
             </li>
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <Link
                 href="/2024 POW Webmaster.pdf"
                 className=" text-black transition duration-150 ease-in-out  "
@@ -98,7 +98,7 @@ export default function Footer() {
               </Link>
             </li>
             {/* need an arrow icon for external site link */}
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <a
                 href="https://tsaweb.org"
                 className=" text-black transition duration-150 ease-in-out  "
@@ -116,12 +116,12 @@ export default function Footer() {
         </div>
         <div className="col-span-1 lg:col-span-3">
           <ul className="flex flex-col flex-initial md:flex-1">
-          <li className="sm:py-0 md:py-0 md:pb-2">
+          <li className="sm:py-0 md:py-3 md:pb-2">
               <p className="text-zinc-600 font-normal">
                 Company
               </p>
             </li>
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <Link
                 href="/about"
                 className=" text-black transition duration-150 ease-in-out  "
@@ -129,7 +129,7 @@ export default function Footer() {
                 About
               </Link>
             </li>
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <Link
                 href="/careers"
                 className=" text-black transition duration-150 ease-in-out  "
@@ -137,7 +137,7 @@ export default function Footer() {
                 Careers
               </Link>
             </li>
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <Link
                 href="https://x.com/fltsa"
                 className=" text-black transition duration-150 ease-in-out "
@@ -145,7 +145,7 @@ export default function Footer() {
                 X
               </Link>
             </li>
-            <li className="sm:py-0 md:py-0 md:pb-2">
+            <li className="sm:py-0 md:py-3 md:pb-2">
               <Link
                 href="https://linkedin.com/in/stelioai"
                 className=" text-black transition duration-150 ease-in-out  "
